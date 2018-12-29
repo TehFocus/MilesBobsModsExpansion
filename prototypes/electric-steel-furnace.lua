@@ -7,6 +7,7 @@ data:extend(
     icon = "__base__/graphics/icons/steel-furnace.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
+    subgroup = "production",
     order = "b",
     place_result = "electric-steel-furnace",
     stack_size = 50
