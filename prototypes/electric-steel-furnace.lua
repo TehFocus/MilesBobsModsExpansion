@@ -4,10 +4,9 @@ data:extend(
   {
     type = "item",
     name = "electric-steel-furnace",
-    icon = "__base__/graphics/icons/steel-furnace.png",
+    icon = "__MilesBobsExpansion__/graphics/icons/electric-steel-furnace.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    subgroup = "production",
     order = "b",
     place_result = "electric-steel-furnace",
     stack_size = 50
@@ -270,6 +269,52 @@ data:extend(
           }
         }
       }
-    }
-   }
+    },
+	
+	
+   {
+    type = "recipe",
+    name = "electric-steel-furnace",
+    enabled = "false",
+    ingredients =
+    {
+      {"steel-furnace", 1},
+      {"electronic-circuit", 5},
+      {"steel-plate", 10},
+      {"iron-gear-wheel", 10},
+    },
+    result = "electric-steel-furnace"
+   },
+
+  
+   {
+    type = "technology",
+    name = "electric-steel-furnace",
+    icon = "__base__/graphics/technology/automation.png",
+    icon_size = 128,
+    effects =
+    {
+      {
+        type = "unlock-recipe",
+        recipe = "electric-steel-furnace"
+      }
+    },
+    prerequisites =
+    {
+      "electronics-machine-1",
+      "advanced-material-processing"
+    },
+    unit =
+    {
+      count = 125,
+      time = 100,
+      ingredients =
+      {
+        {"science-pack-1", 1},
+        {"science-pack-2", 1},
+      },
+    },
+    upgrade = true,
+  },
+ }
 )
