@@ -5,3 +5,4 @@ Added the early electric furnace.
 
 -0.3.0 - 6th January 2019
 Fixed technology naming issues not displaying correctly. Adjusted Science Time on technologies.
+Now with 100% more logos!
