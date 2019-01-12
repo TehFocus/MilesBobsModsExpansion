@@ -7,5 +7,5 @@
   "contact": "genaralage on Steam",
   "homepage": "https://steamcommunity.com/id/genaralage/",
   "description": "Adds machines of higher tiers than bob's as well as some other things such as small electric furnaces",
-  "dependencies": ["base >= 0.16.0", "boblibrary >= 0.16.0", "bobnodules >= 0.16.0", "bobassembly >= 0.16.0", "? bobplates >= 0.16.0"]
+  "dependencies": ["base >= 0.16.0", "boblibrary >= 0.16.0", "bobmodules >= 0.16.0", "bobassembly >= 0.16.0", "? bobplates >= 0.16.0"]
 }
