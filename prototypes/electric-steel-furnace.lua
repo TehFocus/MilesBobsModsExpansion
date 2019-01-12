@@ -7,7 +7,8 @@ data:extend(
     icon = "__MilesBobsExpansion__/graphics/icons/electric-steel-furnace.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-    order = "b",
+	subgroup = "smelting-machine",
+    order = "d",
     place_result = "electric-steel-furnace",
     stack_size = 50
 	},
@@ -306,8 +307,8 @@ data:extend(
     },
     unit =
     {
-      count = 125,
-      time = 100,
+      count = 100,
+      time = 50,
       ingredients =
       {
         {"science-pack-1", 1},
