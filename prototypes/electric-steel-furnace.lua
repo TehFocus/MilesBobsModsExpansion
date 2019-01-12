@@ -8,7 +8,7 @@ data:extend(
     icon_size = 32,
     flags = {"goes-to-quickbar"},
     subgroup = "smelting-machine",
-    order = "d",
+    order = "bd",
     place_result = "electric-steel-furnace",
     stack_size = 50
 	},
