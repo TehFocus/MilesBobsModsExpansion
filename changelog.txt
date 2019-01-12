@@ -10,3 +10,6 @@ Now with 100% more logos!
 -0.4.0 - 12th January 2019
 Fixed the early electric furnaces subgroup to be correct.
 Adjusted science time and cost to the early electric furnaces
+
+-0.4.1 - 12th January 2019
+Hotfix to add bob modules dependency for the items needed in the recipes
