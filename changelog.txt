@@ -14,3 +14,6 @@ Adjusted science time and cost to the early electric furnaces
 -0.4.1 - 12th January 2019
 Hotfix to add bob modules dependency for the items needed in the recipes.
 Hotfix on the item order for the early electric furnace.
+
+-0.4.2 - 12th January 2019
+Hotfix for dependencies. Plates was optional but needed to be required.
