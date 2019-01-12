@@ -7,7 +7,7 @@ data:extend(
     icon = "__MilesBobsExpansion__/graphics/icons/electric-steel-furnace.png",
     icon_size = 32,
     flags = {"goes-to-quickbar"},
-	subgroup = "smelting-machine",
+    subgroup = "smelting-machine",
     order = "d",
     place_result = "electric-steel-furnace",
     stack_size = 50
