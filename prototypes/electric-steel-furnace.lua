@@ -84,7 +84,7 @@ data:extend(
       crafting_speed = 1,
       dying_explosion = "medium-explosion",
       energy_source = {
-        emissions = 0.05,
+        emissions = 0.02,
         type = "electric",
         usage_priority = "secondary-input"
       },
