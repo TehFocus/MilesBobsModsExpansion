@@ -6,7 +6,6 @@ data:extend(
     name = "electronics-machine-4",
     icon = "__MilesBobsExpansion__/graphics/icons/electronics-machine-4.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
     subgroup = "bob-assembly-machine",
     order = "d[electronics-machine-4]",
     place_result = "electronics-machine-4",
@@ -45,31 +44,65 @@ data:extend(
     collision_box = {{-0.7, -0.7}, {0.7, 0.7}},
     selection_box = {{-1, -1}, {1, 1}},
     fast_replaceable_group = "assembling-machine",
-    animation =
+	next_upgrade = "electronics-machine-5",
+	animation =
     {
       layers =
       {
         {
-          filename = "__bobassembly__/graphics/entity/assembling-machine-mask/assembling-machine-3.png",
+          filename = "__bobassembly__/graphics/entity/assembling-machine/assembling-machine-2.png",
           priority = "high",
-          width = 142,
-          height = 113,
+          width = 108,
+          height = 110,
           frame_count = 32,
           line_length = 8,
-          shift = {0.56, -0.06},
-          scale = 0.66,
+          shift = util.by_pixel(0, 4 *2/3),
+          scale = 2/3,
+          hr_version =
+          {
+            filename = "__bobassembly__/graphics/entity/assembling-machine/hr-assembling-machine-2.png",
+            priority = "high",
+            width = 214,
+            height = 218,
+            frame_count = 32,
+            line_length = 8,
+            shift = util.by_pixel(0, 4 *2/3),
+            scale = 1/3
+          }
         },
         {
-          filename = "__bobassembly__/graphics/entity/assembling-machine-mask/assembling-machine-3-mask.png",
+          filename = "__bobassembly__/graphics/entity/assembling-machine/assembling-machine-mask.png",
           priority = "high",
           width = 142,
           height = 113,
+          repeat_count = 32,
+          shift = {0.84 *2/3, -0.09 *2/3},
+          scale = 2/3,
+          tint = {r = 0.7, g = 0.2, b = 0.1},
+        },
+        {
+          filename = "__bobassembly__/graphics/entity/assembling-machine/assembling-machine-2-shadow.png",
+          priority = "high",
+          width = 98,
+          height = 82,
           frame_count = 32,
           line_length = 8,
-          shift = {0.56, -0.06},
-          scale = 0.66,
-          tint = {r = 0.9, g = 0.7, b = 0.0},
-        },
+          draw_as_shadow = true,
+          shift = util.by_pixel(12 *2/3, 5 *2/3),
+          scale = 2/3,
+          hr_version =
+          {
+            filename = "__bobassembly__/graphics/entity/assembling-machine/hr-assembling-machine-2-shadow.png",
+            priority = "high",
+            width = 196,
+            height = 163,
+            frame_count = 32,
+            line_length = 8,
+            draw_as_shadow = true,
+            shift = util.by_pixel(12 *2/3, 4.75 *2/3),
+            scale = 1/3
+          }
+        }
       }
     },
     open_sound = { filename = "__base__/sound/machine-open.ogg", volume = 0.85 },
@@ -145,9 +178,10 @@ data:extend(
       time = 150,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"production-science-pack", 1},
       },
     },
     upgrade = true,
@@ -182,7 +216,7 @@ data:extend(
     prerequisites =
     {
       "electronics-machine-4",
-      "advanced-electronics-3"
+      "advanced-electronics-2"
     },
     unit =
     {
@@ -190,9 +224,10 @@ data:extend(
       time = 200,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
-        {"science-pack-3", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
+        {"utility-science-pack", 1},
+        {"production-science-pack", 1},
       },
     },
     upgrade = true,
