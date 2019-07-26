@@ -20,3 +20,6 @@ Updated for 0.17, sorry for the wait xoxo
 Removed Bob's Plates dependency and updated dependency versions
 Updated all Assembling Machines to HQ sprites
 Changed Assembling Machine 8 to a new shade of pink (Thanks to LuziferSenpai!)
+
+-0.5.1 - 27th July 2019
+Hotfix for a dependency
