@@ -15,5 +15,8 @@ Adjusted science time and cost to the early electric furnaces
 Hotfix to add bob modules dependency for the items needed in the recipes.
 Hotfix on the item order for the early electric furnace.
 
--0.4.2 - 12th January 2019
-Hotfix for dependencies. Plates was optional but needed to be required.
+-0.5.0 - 26th July 2019
+Updated for 0.17, sorry for the wait xoxo
+Removed Bob's Plates dependency and updated dependency versions
+Updated all Assembling Machines to HQ sprites
+Changed Assembling Machine 8 to a new shade of pink (Thanks to LuziferSenpai!)

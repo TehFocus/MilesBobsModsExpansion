@@ -6,8 +6,7 @@ data:extend(
     name = "electric-steel-furnace",
     icon = "__MilesBobsExpansion__/graphics/icons/electric-steel-furnace.png",
     icon_size = 32,
-    flags = {"goes-to-quickbar"},
-    subgroup = "smelting-machine",
+	subgroup = "smelting-machine",
     order = "bd",
     place_result = "electric-steel-furnace",
     stack_size = 50
@@ -84,7 +83,7 @@ data:extend(
       crafting_speed = 1,
       dying_explosion = "medium-explosion",
       energy_source = {
-        emissions = 0.02,
+        emissions = 0.05,
         type = "electric",
         usage_priority = "secondary-input"
       },
@@ -311,8 +310,8 @@ data:extend(
       time = 50,
       ingredients =
       {
-        {"science-pack-1", 1},
-        {"science-pack-2", 1},
+        {"automation-science-pack", 1},
+        {"logistic-science-pack", 1},
       },
     },
     upgrade = true,
