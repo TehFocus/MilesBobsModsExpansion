@@ -153,10 +153,10 @@ data:extend(
     {
       {"assembling-machine-6", 1},
       {"processing-unit", 10},
-      {"steel-plate", 6},
+      {"steel-plate", 10},
       {"iron-plate", 15},
       {"iron-gear-wheel", 10},
-	  {"speed-module", 5},
+	  {"speed-module-5", 5},
     },
     result = "assembling-machine-7"
   },
@@ -197,10 +197,10 @@ data:extend(
     {
       {"assembling-machine-7", 1},
       {"processing-unit", 15},
-      {"steel-plate", 10},
+      {"steel-plate", 15},
       {"iron-plate", 20},
       {"iron-gear-wheel", 15},
-	  {"speed-module-2", 5},
+	  {"speed-module-6", 5},
     },
     result = "assembling-machine-8"
   },
@@ -244,7 +244,7 @@ data:extend(
       {"steel-plate", 20},
       {"iron-plate", 40},
       {"iron-gear-wheel", 30},
-	  {"speed-module-3", 5},
+	  {"speed-module-7", 5},
     },
     result = "assembling-machine-9"
   },
@@ -288,7 +288,7 @@ data:extend(
       {"steel-plate", 40},
       {"iron-plate", 80},
       {"iron-gear-wheel", 60},
-	  {"speed-module-4", 5},
+	  {"speed-module-8", 5},
     },
     result = "assembling-machine-10"
   },
@@ -328,7 +328,7 @@ data:extend(
 		new_assembler.crafting_speed="4.50"
 		new_assembler.order="c[assembling-machine-8]"
 		new_assembler.animation.layers[2].tint ={r = 243/255, g = 136/255, b = 213/255}
-		new_assembler.energy_usage="800kW"
+		new_assembler.energy_usage="1000kW"
 		new_assembler.minable={hardness = 0.2, mining_time = 0.5, result = "assembling-machine-8"}
 		new_assembler.module_specification.module_slots="8"
 		data:extend{new_assembler}
@@ -343,10 +343,10 @@ data:extend(
 		local new_assembler=table.deepcopy(data.raw["assembling-machine"]["assembling-machine-7"])
 		new_assembler.name="assembling-machine-9"
 		new_assembler.icon="__MilesBobsExpansion__/graphics/icons/assembling-machine-9.png"
-		new_assembler.crafting_speed="5.0"
+		new_assembler.crafting_speed="4.70"
 		new_assembler.order="c[assembling-machine-9]"
 		new_assembler.animation.layers[2].tint={r = 0.9, g = 0.7, b = 0.0}
-		new_assembler.energy_usage="900kW"
+		new_assembler.energy_usage="1250kW"
 		new_assembler.minable={hardness = 0.2, mining_time = 0.5, result = "assembling-machine-9"}
 		new_assembler.module_specification.module_slots="9"
 		data:extend{new_assembler}
@@ -361,10 +361,10 @@ data:extend(
 		local new_assembler=table.deepcopy(data.raw["assembling-machine"]["assembling-machine-7"])
 		new_assembler.name="assembling-machine-10"
 		new_assembler.icon="__MilesBobsExpansion__/graphics/icons/assembling-machine-10.png"
-		new_assembler.crafting_speed="6.00"
+		new_assembler.crafting_speed="5.00"
 		new_assembler.order="c[x-assembling-machine-9+1]"
 		new_assembler.animation.layers[2].tint={r = 1.0, g = 1.0, b = 1.0}
-		new_assembler.energy_usage="1000kW"
+		new_assembler.energy_usage="2000kW"
 		new_assembler.minable={hardness = 0.2, mining_time = 0.5, result = "assembling-machine-10"}
 		new_assembler.module_specification.module_slots="10"
 		data:extend{new_assembler}
