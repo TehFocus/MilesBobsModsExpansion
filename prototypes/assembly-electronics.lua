@@ -128,13 +128,13 @@ data:extend(
     {
       type = "electric",
       usage_priority = "secondary-input",
-      emissions = 0.012
+      emissions = 0.0005
     },
-    energy_usage = "500kW",
+    energy_usage = "800kW",
     ingredient_count = 6,
     module_specification =
     {
-      module_slots = 8,
+      module_slots = 7,
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
@@ -240,9 +240,10 @@ data:extend(
 		new_assembler.crafting_speed="8.0"
 		new_assembler.order="d[electronics-machine-5]"
 		new_assembler.animation.layers[2].tint={r = 1.0, g = 1.0, b = 1.0}
-		new_assembler.energy_usage="800kW"
+		new_assembler.energy_usage="1000kW"
+		new_assembler.energy_source={type = "electric", usage_priority = "secondary-input", emissions = 0.0003}
 		new_assembler.minable={hardness = 0.2, mining_time = 0.5, result = "electronics-machine-5"}
-		new_assembler.module_specification.module_slots="10"
+		new_assembler.module_specification.module_slots="8"
 		data:extend{new_assembler}
 		
 		local new_assembleritem=table.deepcopy(data.raw["item"]["electronics-machine-4"])

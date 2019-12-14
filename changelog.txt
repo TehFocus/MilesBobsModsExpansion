@@ -32,3 +32,8 @@ Hotfix for a Typo, allowing 57 Modules in an Assembler instead of the desired 7
 New Icon Art
 Nerfed Crafting Speed of normal Assemblers to a maximum of 5.00
 Updated Dependencies to their newest versions
+
+-0.6.1 - 14th December 2019
+Fixed Pollution of electronic Assemblers, T4 generating 0.1 less thant T3 and T5 generating 0.1 less than T4
+Adjusted Module Slots to 7 and 8 for electronic assembler T4 and T5 (Down from 8 and 10)
+Adjusted energy usage of electronic assembler T4 and T5 to 800kW and 1000kW to be more in line with the other machines
