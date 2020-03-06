@@ -37,3 +37,6 @@ Updated Dependencies to their newest versions
 Fixed Pollution of electronic Assemblers, T4 generating 0.1 less thant T3 and T5 generating 0.1 less than T4
 Adjusted Module Slots to 7 and 8 for electronic assembler T4 and T5 (Down from 8 and 10)
 Adjusted energy usage of electronic assembler T4 and T5 to 800kW and 1000kW to be more in line with the other machines
+
+-0.7.0 - 6th March 2020
+Updated for 0.18, again: Was being lazy, literally just had to change version numbers xoxo
