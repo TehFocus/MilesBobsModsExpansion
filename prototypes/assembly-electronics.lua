@@ -134,7 +134,7 @@ data:extend(
     ingredient_count = 6,
     module_specification =
     {
-      module_slots = 7,
+      module_slots = 6,
     },
     allowed_effects = {"consumption", "speed", "productivity", "pollution"}
   },
@@ -243,7 +243,7 @@ data:extend(
 		new_assembler.energy_usage="1000kW"
 		new_assembler.energy_source={type = "electric", usage_priority = "secondary-input", emissions = 0.0003}
 		new_assembler.minable={hardness = 0.2, mining_time = 0.5, result = "electronics-machine-5"}
-		new_assembler.module_specification.module_slots="8"
+		new_assembler.module_specification.module_slots="6"
 		data:extend{new_assembler}
 		
 		local new_assembleritem=table.deepcopy(data.raw["item"]["electronics-machine-4"])
@@ -251,3 +251,99 @@ data:extend(
 		new_assembleritem.place_result="electronics-machine-5"		
 		new_assembleritem.icon="__MilesBobsExpansion__/graphics/icons/electronics-machine-5.png"
 		data:extend{new_assembleritem}
+		
+				
+		local recipe = {
+			name = "electronics-machine-4",
+			type = "recipe",
+			ingredients =
+				{
+					{"electronics-machine-3", 1},
+					{"processing-unit", 10},
+					{"steel-plate", 10},
+					{"iron-gear-wheel", 10},
+					{"speed-module-3", 5},
+				},
+			result = "electronics-machine-4"
+		}
+		if mods["bobplates"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-3", 1},
+					{"processing-unit", 10},
+					{"tungsten-carbide", 10},
+					{"tungsten-gear-wheel", 10},
+					{"speed-module-5", 5},
+				}
+		end
+		
+		if mods["bobelectronics"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-3", 1},
+					{"advanced-processing-unit", 5},
+					{"steel-plate", 10},
+					{"iron-gear-wheel", 10},
+					{"speed-module-5", 5},
+				}
+		end
+		
+		if mods["bobplates"] and mods["bobelectronics"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-3", 1},
+					{"advanced-processing-unit", 10},
+					{"tungsten-carbide", 10},
+					{"tungsten-gear-wheel", 10},
+					{"speed-module-5", 5},
+				}
+		end
+		data:extend({recipe})	
+
+		
+		local recipe = {
+			name = "electronics-machine-5",
+			type = "recipe",
+			ingredients =
+				{
+					{"electronics-machine-4", 1},
+					{"processing-unit", 20},
+					{"steel-plate", 20},
+					{"iron-gear-wheel", 20},
+					{"speed-module-3", 5},
+				},
+			result = "electronics-machine-5"
+		}
+		if mods["bobplates"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-4", 1},
+					{"processing-unit", 20},
+					{"cobalt-steel-alloy", 20},
+					{"nitinol-bearing", 20},
+					{"speed-module-6", 5},
+				}
+		end
+		
+		if mods["bobelectronics"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-4", 1},
+					{"advanced-processing-unit", 20},
+					{"steel-plate", 20},
+					{"iron-gear-wheel", 20},
+					{"speed-module-6", 5},
+				}
+		end
+		
+		if mods["bobplates"] and mods["bobelectronics"] then
+			recipe.ingredients =
+				{
+					{"electronics-machine-4", 1},
+					{"advanced-processing-unit", 20},
+					{"cobalt-steel-alloy", 20},
+					{"nitinol-bearing", 20},
+					{"speed-module-6", 5},
+				}
+		end
+		data:extend({recipe})

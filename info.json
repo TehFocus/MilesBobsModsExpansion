@@ -1,11 +1,11 @@
 {
   "name": "MilesBobsExpansion",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "factorio_version": "0.18",
   "title": "Miles' Bob's Expansion",
   "author": "TehFocus",
   "contact": "genaralage on Steam",
   "homepage": "https://steamcommunity.com/id/genaralage/",
-  "description": "Adds machines of higher tiers than Bob's as well as some other things such as small electric furnaces",
-  "dependencies": ["base >= 0.17.50", "boblibrary >= 0.18.0", "bobmodules >= 0.18.0", "bobassembly >= 0.18.0"]
+  "description": "Adds machines of higher tiers than Bob's, as well as a small electric furnace",
+  "dependencies": ["base >= 0.18.30", "boblibrary >= 0.18.9", "bobmodules >= 0.18.5", "bobassembly >= 0.18.7", "? bobplates >= 0.18.9", "? bobelectronics >= 0.18.1"]
 }
