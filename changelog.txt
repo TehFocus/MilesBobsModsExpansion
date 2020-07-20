@@ -40,3 +40,8 @@ Adjusted energy usage of electronic assembler T4 and T5 to 800kW and 1000kW to b
 
 -0.7.0 - 6th March 2020
 Updated for 0.18, again: Was being lazy, literally just had to change version numbers xoxo
+
+-0.8.0 - 6th July 2020
+Happy Birthday to me! Spent the night adding conditional recipes. Depending if bobplates and/or bobelectronics are present, recipes change
+Adjusted crafting speed and module slots
+Fixed technology icon as well as some machine icons
