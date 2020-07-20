@@ -290,7 +290,7 @@ data:extend(
    {
     type = "technology",
     name = "electric-steel-furnace",
-    icon = "__base__/graphics/technology/automation.png",
+    icon = "__MilesBobsExpansion__/graphics/tech/electric-steel-furnace-tech.png",
     icon_size = 128,
     effects =
     {
