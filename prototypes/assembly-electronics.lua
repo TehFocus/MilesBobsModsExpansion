@@ -271,8 +271,9 @@ data:extend(
 				{
 					{"electronics-machine-3", 1},
 					{"processing-unit", 10},
+					{"nitinol-alloy", 10},
+					{"nitinol-bearing", 10},
 					{"tungsten-carbide", 10},
-					{"tungsten-gear-wheel", 10},
 					{"speed-module-5", 5},
 				}
 		end
@@ -293,8 +294,9 @@ data:extend(
 				{
 					{"electronics-machine-3", 1},
 					{"advanced-processing-unit", 10},
+					{"nitinol-alloy", 10},
+					{"nitinol-bearing", 10},
 					{"tungsten-carbide", 10},
-					{"tungsten-gear-wheel", 10},
 					{"speed-module-5", 5},
 				}
 		end
@@ -319,7 +321,7 @@ data:extend(
 				{
 					{"electronics-machine-4", 1},
 					{"processing-unit", 20},
-					{"cobalt-steel-alloy", 20},
+					{"copper-tungsten-alloy", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-6", 5},
 				}
@@ -341,7 +343,7 @@ data:extend(
 				{
 					{"electronics-machine-4", 1},
 					{"advanced-processing-unit", 20},
-					{"cobalt-steel-alloy", 20},
+					{"copper-tungsten-alloy", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-6", 5},
 				}
