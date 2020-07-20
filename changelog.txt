@@ -46,9 +46,6 @@ Happy Birthday to me! Spent the night adding conditional recipes. Depending if b
 Adjusted crafting speed and module slots
 Fixed technology icon as well as some machine icons
 
--0.8.1 - 20th July 2020
+-0.8.3 - 20th July 2020
 Hotfix for crafting speed of assemblers. T7 now actually better than T6. Raised maximum craft speed of all machines
 Adjusted conditional recipes for Bob's Plates and/or Bobs'Electronics to be more in-line with high tier metals. Additional CPU requirement removed.
-
--0.8.2 - 20th July 2020
-Hotfix for some recipes, typos mostly
