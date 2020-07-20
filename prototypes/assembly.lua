@@ -494,8 +494,8 @@ data:extend(
 				{
 					{"assembling-machine-8", 1},
 					{"processing-unit", 10},
-					{"cobalt-steel-alloy", 10},
-					{"nitinol-alloy", 20},
+					{"copper-tungsten-alloy", 10},
+					{"tungsten-carbide", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-7", 5},
 				}
@@ -506,7 +506,6 @@ data:extend(
 				{
 					{"assembling-machine-8", 1},
 					{"advanced-processing-unit", 10},
-					{"processing-electronics", 10},
 					{"steel-plate", 20},
 					{"iron-plate", 20},
 					{"iron-gear-wheel", 20},
@@ -519,9 +518,8 @@ data:extend(
 				{
 					{"assembling-machine-8", 1},
 					{"advanced-processing-unit", 10},
-					{"processing-electronics", 10},
-					{"cobalt-steel-alloy", 10},
-					{"nitinol-alloy", 20},
+					{"copper-tungsten-alloy", 10},
+					{"tungsten-carbide", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-7", 5},
 				}
@@ -547,8 +545,8 @@ data:extend(
 				{
 					{"assembling-machine-9", 1},
 					{"processing-unit", 20},
-					{"cobalt-steel-alloy", 20},
-					{"nitinol-alloy", 20},
+					{"copper-tungsten-alloy", 20},
+					{"tungsten-carbide", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-8", 5},
 				}
