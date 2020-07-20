@@ -569,7 +569,7 @@ data:extend(
 				{
 					{"assembling-machine-9", 1},
 					{"advanced-processing-unit", 20},
-					{"cobalt-steel-alloy", 20},
+					{"copper-tungsten-alloy", 20},
 					{"nitinol-alloy", 20},
 					{"nitinol-bearing", 20},
 					{"speed-module-8", 5},
