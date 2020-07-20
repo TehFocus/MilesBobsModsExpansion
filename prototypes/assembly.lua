@@ -128,7 +128,7 @@ data:extend(
       apparent_volume = 1.5,
     },
     crafting_categories = {"crafting", "advanced-crafting", "crafting-with-fluid"},
-    crafting_speed = 3,
+    crafting_speed = 4,
     energy_source =
     {
       type = "electric",
@@ -325,7 +325,7 @@ data:extend(
 		local new_assembler=table.deepcopy(data.raw["assembling-machine"]["assembling-machine-7"])
 		new_assembler.name="assembling-machine-8"
 		new_assembler.icon="__MilesBobsExpansion__/graphics/icons/assembling-machine-8.png"
-		new_assembler.crafting_speed="4.0"
+		new_assembler.crafting_speed="5.0"
 		new_assembler.order="c[assembling-machine-8]"
 		new_assembler.animation.layers[2].tint ={r = 243/255, g = 136/255, b = 213/255}
 		new_assembler.energy_usage="1000kW"
@@ -343,7 +343,7 @@ data:extend(
 		local new_assembler=table.deepcopy(data.raw["assembling-machine"]["assembling-machine-7"])
 		new_assembler.name="assembling-machine-9"
 		new_assembler.icon="__MilesBobsExpansion__/graphics/icons/assembling-machine-9.png"
-		new_assembler.crafting_speed="4.50"
+		new_assembler.crafting_speed="5.50"
 		new_assembler.order="c[assembling-machine-9]"
 		new_assembler.animation.layers[2].tint={r = 0.9, g = 0.7, b = 0.0}
 		new_assembler.energy_usage="1250kW"
@@ -361,7 +361,7 @@ data:extend(
 		local new_assembler=table.deepcopy(data.raw["assembling-machine"]["assembling-machine-7"])
 		new_assembler.name="assembling-machine-10"
 		new_assembler.icon="__MilesBobsExpansion__/graphics/icons/assembling-machine-10.png"
-		new_assembler.crafting_speed="5.00"
+		new_assembler.crafting_speed="6.00"
 		new_assembler.order="c[x-assembling-machine-9+1]"
 		new_assembler.animation.layers[2].tint={r = 1.0, g = 1.0, b = 1.0}
 		new_assembler.energy_usage="2000kW"
@@ -559,7 +559,6 @@ data:extend(
 				{
 					{"assembling-machine-9", 1},
 					{"advanced-processing-unit", 20},
-					{"processing-electronics", 20},
 					{"steel-plate", 30},
 					{"iron-plate", 30},
 					{"iron-gear-wheel", 30},
@@ -572,7 +571,6 @@ data:extend(
 				{
 					{"assembling-machine-9", 1},
 					{"advanced-processing-unit", 20},
-					{"processing-electronics", 20},
 					{"cobalt-steel-alloy", 20},
 					{"nitinol-alloy", 20},
 					{"nitinol-bearing", 20},
